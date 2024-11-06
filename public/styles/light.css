@@ -29,11 +29,18 @@ html {
 .profile {
 	border-radius: 100px;
 }
-.head-container h1 {
+.head-container .name {
 	margin-top: 10px;
 	font-family: "Aileron-Heavy", sans-serif;
+	font-size: xx-large;
 }
-.head-container h3 {
+.head-container .fullstack {
+	margin-top: 10px;
+	font-family: "Aileron", sans-serif;
+	font-size: large;
+	color: #888787;
+}
+.head-container .location {
 	margin-top: 10px;
 	font-family: "Aileron", sans-serif;
 	font-size: large;
@@ -340,7 +347,11 @@ html {
 		left: 0;
 		margin-left: 150px;
 	}
-	.head-container h3 {
+	.head-container .fullstack {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.head-container .location {
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
