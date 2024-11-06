@@ -1,6 +1,8 @@
 import "./styles/dark.css";
 import { useAtom } from "jotai";
 import themeAtom from "./atoms/themeAtom";
+import Head from "./components/Head/Head";
+import RightSide from "./components/RightSide/RightSide";
 
 function App() {
 	const [theme, setTheme] = useAtom(themeAtom);
@@ -26,7 +28,8 @@ function App() {
 				onClick={toggleTheme}
 				style={{ cursor: "pointer" }}
 			/>
-			<h1>Hello world</h1>
+			<Head theme={theme} toggleTheme={toggleTheme}/>
+      <RightSide />
 		</>
 	);
 }
