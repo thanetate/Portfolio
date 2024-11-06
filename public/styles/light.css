@@ -130,8 +130,6 @@ html {
 }
 /* about me */
 .about-container {
-	margin-top: -100px;
-	padding-top: 100px;
 	word-spacing: 0.1em;
 	line-height: 1.5em;
 	font-size: medium;
@@ -401,15 +399,18 @@ html {
 		margin-top: 100px;
 		margin-right: 150px;
 	}
+	.about-container {
+		padding-top: 100px;
+	}
 	.skills-container {
 		margin-top: 50px;
 	}
 	.experience-container {
-		margin-top: 100px;
-		margin-bottom: 100px;
+		padding-top: 100px;
+	
 	}
-	.project4-container {
-		margin-bottom: 100px;
+	.projects-container {
+		padding-top: 50px;
 	}
 	/* effects */
 	.project1-container,
