@@ -130,6 +130,8 @@ html {
 }
 /* about me */
 .about-container {
+	margin-top: -100px;
+	padding-top: 100px;
 	word-spacing: 0.1em;
 	line-height: 1.5em;
 	font-size: medium;
