@@ -454,14 +454,13 @@ html {
 	.project4-container:hover .newarrow {
 		background-color: #21c55d;
 	}
-
 	.newarrow {
 		width: 20px;
 		height: 20px;
 		position: absolute;
 		margin-left: 135px;
 		margin-top: -20px;
-		background-color: white;
+		background-color: black;
 		-webkit-mask: url(/icons/arrowslant.svg) no-repeat center;
 		mask: url(/icons/arrowslant.svg) no-repeat center;
 	}
