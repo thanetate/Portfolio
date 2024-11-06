@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles/dark.css";
 import { useAtom } from "jotai";
 import themeAtom from "./atoms/themeAtom";
