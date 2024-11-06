@@ -17,7 +17,7 @@ const Head: React.FC<HeadProps> = ({ theme, toggleTheme }) => {
 					onClick={toggleTheme}
 					style={{ cursor: "pointer" }}
 				/>
-				<img className="profile" src="/profile3.png" alt="Profile Picture" />
+				<img className="profile" src="/profile3.png" alt="Profile Picture" width="150px" height="150px"/>
 				<h1>Thane Tate</h1>
 				<h3 className="fullstack">I am a Software Engineer ツ</h3>
 				<h3 className="location">📍 Dallas, Texas</h3>
