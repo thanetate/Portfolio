@@ -48,7 +48,7 @@ function App() {
   }, [theme]);
 
 	return (
-		<>
+		<div className="parent-container">
 			{/* <link
 				rel="stylesheet"
 				href={theme === "dark" ? "/src/styles/dark.css" : "/src/styles/light.css"}
@@ -62,7 +62,7 @@ function App() {
 			/>
 			<Head theme={theme} toggleTheme={toggleTheme} />
 			<RightSide />
-		</>
+		</div>
 	);
 }
 
