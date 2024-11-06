@@ -1,9 +1,8 @@
 import About from "../About/About";
 import Experience from "../Experience/Experience";
 import Skills from "../Skills/Skills";
-// import Projects from "../Projects/Projects";
-// import Experience from "../Experience/Experience";
-// import Footer from "../Footer/Footer";
+import Projects from "../Projects/Projects";
+import Footer from "../Footer/Footer";
 
 function RightSide() {
 	return (
@@ -11,10 +10,8 @@ function RightSide() {
 			<About />
 			<Skills />
 			<Experience />
-			{/*
-            <Experience />
 			<Projects />
-            <Footer /> */}
+			<Footer />
 		</div>
 	);
 }

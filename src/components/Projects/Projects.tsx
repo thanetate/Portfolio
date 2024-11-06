@@ -44,7 +44,7 @@ function Projects() {
 					className="demo"
 					src="./theorydemo.mov"
 					controls
-					alt="Theory Climbing Demo"
+					title="Theory Climbing Demo"
 				/>
 				<div className="sub-container">
 					<div className="title">Theory Climbing</div>

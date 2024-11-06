@@ -1,4 +1,4 @@
-import "./styles/dark.css";
+import "./dark.css";
 import { useAtom } from "jotai";
 import themeAtom from "./atoms/themeAtom";
 import Head from "./components/Head/Head";
@@ -17,10 +17,10 @@ function App() {
 
 	return (
 		<>
-			<link
+			{/* <link
 				rel="stylesheet"
 				href={theme === "dark" ? "/src/styles/dark.css" : "/src/styles/light.css"}
-			/>
+			/> */}
 			<img
 				className="lightdark"
 				src={theme === "dark" ? "/icons/sun.svg" : "/icons/moon.svg"}
