@@ -210,9 +210,6 @@ html {
 	background-color: #e9b207;
 }
 /* experience */
-.experience-container {
-	margin-top: 50px;
-}
 .experience-container .title {
 	font-size: larger;
 	margin-bottom: 10px;
@@ -407,9 +404,6 @@ html {
 	.experience-container {
 		padding-top: 100px;
 	
-	}
-	.projects-container {
-		padding-top: 50px;
 	}
 	/* effects */
 	.project1-container,

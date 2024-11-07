@@ -149,6 +149,9 @@ html {
 	color: white;
 }
 /* skills */
+.skills-container {
+	padding-top: 50px;
+}
 .sub-containers {
 	display: flex;
 	flex-direction: column;
@@ -214,7 +217,7 @@ html {
 }
 /* experience */
 .experience-container {
-	padding-top: 0px;
+	padding-top: 100px;
 	margin-top: 0px;
 }
 .experience-container .title {
@@ -259,6 +262,9 @@ html {
 	margin-top: 10px;
 }
 /* projects */
+.projects-container {
+	padding-top: 50px;
+}
 .demo {
 	/* bump this up to 150 100 */
 	width: 100px;
@@ -343,6 +349,9 @@ html {
 	}
 }
 @media (min-width: 1500px) {
+	.skills-container {
+		padding-top: 0;
+	}
 	.parent-container {
 		align-items: end;
 	}
@@ -411,9 +420,6 @@ html {
 	.experience-container {
 		padding-top: 100px;
 	
-	}
-	.projects-container {
-		padding-top: 50px;
 	}
 	/* effects */
 	.project1-container,
