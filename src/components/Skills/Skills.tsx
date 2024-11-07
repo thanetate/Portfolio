@@ -14,7 +14,7 @@ function Skills() {
 			<div className="sub-containers">
 				<div className="title">Frontend & Design</div>
 				<div className="bubbles">
-					<div className="g-bubble">React.js</div>
+					<div className="g-bubble">React</div>
 					<div className="g-bubble">Next.js</div>
 					<div className="g-bubble">Figma</div>
 				</div>

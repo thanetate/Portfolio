@@ -15,13 +15,13 @@ function Projects() {
 					<div className="newarrow"></div>
 					<p>
 						In a team of four, I helped develop Reading Realm, a social platform
-						designed for book lovers. I implemented features such as
-						personalized book recommendations, interactive reading logs, and
-						customizable user profiles, creating an engaging experience for
-						users. We held regular feedback meetings with customers to ensure
-						our project aligned with their needs and used Agile methodologies in
-						ClickUp to manage tasks and sprints, keeping our team organized and
-						focused on delivering a high-quality product.
+						and book management system designed for book lovers. I implemented
+						features such as customizable user profiles, social feeds and
+						reading logs, creating an engaging experience for users. We held
+						regular feedback meetings with customers to ensure our project
+						aligned with their needs and used Agile methodologies in ClickUp to
+						manage tasks and sprints, keeping our team organized and focused on
+						delivering a high-quality product.
 					</p>
 					<div className="bubbles">
 						<div className="g-bubble">JavaScript</div>
@@ -47,7 +47,7 @@ function Projects() {
 					<div className="title">Theory Climbing</div>
 					<div className="newarrow"></div>
 					<p>
-						Theory Climbing is a full-stack web application I developed to blend
+						Theory Climbing is a web application I developed to blend
 						my six years of rock climbing experience with my passion for web
 						development. Built using modern technologies like Next.js, the site
 						features a responsive user interface, authentication, and API
@@ -105,7 +105,7 @@ function Projects() {
 						developed for efficiently organizing library loans, patrons, and
 						books. The system tackles the complexities of managing library
 						operations by streamlining the tracking and handling of loans. Built
-						with C++ and Object-Oriented Programming principles, I used a
+						with Object-Oriented Programming principles, I used a
 						Makefile to structure and automate the project. This system
 						demonstrates my ability to create practical solutions for real-world
 						challenges using efficient design and coding practices.

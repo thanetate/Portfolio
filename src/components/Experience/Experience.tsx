@@ -25,7 +25,7 @@ function Experience() {
 						team, using Figma and the MERN stack to bring our project from idea
 						to reality within 24 hours. This experience strengthened my creative
 						problem-solving skills, teamwork, and adaptability under
-						pressure—key skills I’m excited to apply to future projects.
+						pressure - key skills I’m excited to apply to future projects.
 					</p>
 					<div className="bubbles">
 						<div className="g-bubble">JavaScript</div>
