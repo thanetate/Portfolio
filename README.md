@@ -6,8 +6,6 @@ Check out my portfolio website, created with a minimal design in mind. This site
 
 Email me : thanetate1@gmail.com
 
-# Demo
-
 ## Dark theme
 ![newportdemo1](https://github.com/user-attachments/assets/bd454ce3-6c78-4956-9133-cc79f7cae3ef)
 
