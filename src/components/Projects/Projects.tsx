@@ -97,7 +97,7 @@ function Projects() {
 					alt="Library Loan Demo"
 				/>
 				<div className="sub-container">
-					<div className="title">Library Management System</div>
+					<div className="title">Library System</div>
 					<a href="https://github.com/thanetate/Library-Management-System" className="exportgithub"></a>
 					<p>
 						The Library Loan Management System is a robust software solution I
