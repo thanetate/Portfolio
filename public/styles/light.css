@@ -298,6 +298,44 @@ html {
 	color: #888787;
 	margin-bottom: 20px;
 }
+.newarrow {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	margin-left: 135px;
+	margin-top: -20px;
+	background-color: black;
+	-webkit-mask: url(/icons/arrowslant.svg) no-repeat center;
+	mask: url(/icons/arrowslant.svg) no-repeat center;
+}
+.exportgithub {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	margin-left: 135px;
+	margin-top: -20px;
+	background-color: black;
+	-webkit-mask: url(/icons/github.svg) no-repeat center;
+	mask: url(/icons/github.svg) no-repeat center;
+}
+.project2-container .newarrow {
+	margin-left: 155px;
+}
+.project3-container .newarrow {
+	margin-left: 60px;
+}
+.project1-container .exportgithub {
+	margin-left: 145px;
+}
+.project2-container .exportgithub {
+	margin-left: 185px;
+}
+.project3-container .exportgithub {
+	margin-left: 90px;
+}
+.project4-container .exportgithub {
+	margin-left: 265px;
+}
 /* footer */
 .footer-container {
 	margin-top: 40px;
@@ -448,6 +486,12 @@ html {
 	.project4-container:hover .newarrow {
 		background-color: #21c55d;
 	}
+	.project1-container:hover .exportgithub,
+	.project2-container:hover .exportgithub,
+	.project3-container:hover .exportgithub,
+	.project4-container:hover .exportgithub {
+		background-color: #21c55d;
+	}
 	.newarrow {
 		width: 20px;
 		height: 20px;
@@ -458,8 +502,15 @@ html {
 		-webkit-mask: url(/icons/arrowslant.svg) no-repeat center;
 		mask: url(/icons/arrowslant.svg) no-repeat center;
 	}
-	.project1-container .newarrow {
-		margin-left: 140px;
+	.exportgithub {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		margin-left: 135px;
+		margin-top: -20px;
+		background-color: black;
+		-webkit-mask: url(/icons/github.svg) no-repeat center;
+		mask: url(/icons/github.svg) no-repeat center;
 	}
 	.project2-container .newarrow {
 		margin-left: 155px;
@@ -467,7 +518,16 @@ html {
 	.project3-container .newarrow {
 		margin-left: 60px;
 	}
-	.project4-container .newarrow {
-		margin-left: 260px;
+	.project1-container .exportgithub {
+		margin-left: 145px;
+	}
+	.project2-container .exportgithub {
+		margin-left: 180px;
+	}
+	.project3-container .exportgithub {
+		margin-left: 85px;
+	}
+	.project4-container .exportgithub {
+		margin-left: 265px;
 	}
 }

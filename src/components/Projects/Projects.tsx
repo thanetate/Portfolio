@@ -3,7 +3,6 @@ function Projects() {
 		<div id="Projects" className="projects-container">
 			<a
 				className="project1-container"
-				href="https://github.com/thanetate/Reading-Realm"
 			>
 				<img
 					className="demo"
@@ -12,7 +11,7 @@ function Projects() {
 				/>
 				<div className="sub-container">
 					<div className="title">Reading Realm</div>
-					<div className="newarrow"></div>
+					<a href="https://github.com/thanetate/Reading-Realm" className="exportgithub"></a>
 					<p>
 						In a team of four, I helped develop Reading Realm, a social platform
 						and book management system designed for book lovers. I implemented
@@ -35,7 +34,6 @@ function Projects() {
 			</a>
 			<a
 				className="project2-container"
-				href="https://theory-climbing.vercel.app/"
 			>
 				<video
 					className="demo"
@@ -45,7 +43,8 @@ function Projects() {
 				/>
 				<div className="sub-container">
 					<div className="title">Theory Climbing</div>
-					<div className="newarrow"></div>
+					<a href="https://theory-climbing.vercel.app/" className="newarrow"></a>
+					<a href="https://github.com/thanetate/Theory-Climbing" className="exportgithub"></a>
 					<p>
 						Theory Climbing is a web application I developed to blend
 						my six years of rock climbing experience with my passion for web
@@ -65,12 +64,12 @@ function Projects() {
 			</a>
 			<a
 				className="project3-container"
-				href="https://mapo.dev.bensivo.com/app/"
 			>
 				<img className="demo" src="/mapodemo.png" alt="Mapo Demo" />
 				<div className="sub-container">
 					<div className="title">Mapo</div>
-					<div className="newarrow"></div>
+					<a href="https://mapo.dev.bensivo.com/app/" className="newarrow"></a>
+					<a href="https://github.com/bensivo/mapo" className="exportgithub"></a>
 					<p>
 						I collaborated with a senior software engineer to implement a key
 						feature using Go, Bash, and PostgreSQL. I designed and built a
@@ -99,7 +98,7 @@ function Projects() {
 				/>
 				<div className="sub-container">
 					<div className="title">Library Management System</div>
-					<div className="newarrow"></div>
+					<a href="https://github.com/thanetate/Library-Management-System" className="exportgithub"></a>
 					<p>
 						The Library Loan Management System is a robust software solution I
 						developed for efficiently organizing library loans, patrons, and

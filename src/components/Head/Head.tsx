@@ -43,7 +43,7 @@ const Head: React.FC<HeadProps> = ({ theme, toggleTheme }) => {
 						</a>
 					</div>
 				</div>
-				<div className="version">v0.4.1</div>
+				<div className="version">v3.1.2</div>
 			</div>
 		</>
 	);
