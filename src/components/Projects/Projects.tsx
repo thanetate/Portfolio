@@ -33,6 +33,31 @@ function Projects() {
 				</div>
 			</a>
 			<a
+				className="project3-container"
+			>
+				<img className="demo" src="/mapodemo.png" alt="Mapo Demo" />
+				<div className="sub-container">
+					<div className="title">Mapo</div>
+					<a href="https://mapo.dev.bensivo.com/app/" className="newarrow"></a>
+					<a href="https://github.com/bensivo/mapo" className="exportgithub"></a>
+					<p>
+						I collaborated with a senior software engineer to implement a key
+						feature using Go, Bash, and PostgreSQL. I designed and built a
+						folder management feature, developing controllers, services, and
+						models that integrated with a PostgreSQL database. Additionally, I
+						created unit tests in Bash to validate CRUD operations, enhancing
+						both code reliability and functionality. This experience has
+						strengthened my skills in back-end development and RESTful API
+						design.
+					</p>
+					<div className="bubbles">
+						<div className="g-bubble">Go</div>
+						<div className="g-bubble">Bash</div>
+						<div className="g-bubble">PostgreSQL</div>
+					</div>
+				</div>
+			</a>
+			<a
 				className="project2-container"
 			>
 				<video
@@ -59,31 +84,6 @@ function Projects() {
 						<div className="g-bubble">TypeScript</div>
 						<div className="g-bubble">Next.js</div>
 						<div className="g-bubble">MongoDB</div>
-					</div>
-				</div>
-			</a>
-			<a
-				className="project3-container"
-			>
-				<img className="demo" src="/mapodemo.png" alt="Mapo Demo" />
-				<div className="sub-container">
-					<div className="title">Mapo</div>
-					<a href="https://mapo.dev.bensivo.com/app/" className="newarrow"></a>
-					<a href="https://github.com/bensivo/mapo" className="exportgithub"></a>
-					<p>
-						I collaborated with a senior software engineer to implement a key
-						feature using Go, Bash, and PostgreSQL. I designed and built a
-						folder management feature, developing controllers, services, and
-						models that integrated with a PostgreSQL database. Additionally, I
-						created unit tests in Bash to validate CRUD operations, enhancing
-						both code reliability and functionality. This experience has
-						strengthened my skills in back-end development and RESTful API
-						design.
-					</p>
-					<div className="bubbles">
-						<div className="g-bubble">Go</div>
-						<div className="g-bubble">Bash</div>
-						<div className="g-bubble">PostgreSQL</div>
 					</div>
 				</div>
 			</a>
