@@ -28,7 +28,6 @@ function Experience() {
 						pressure - key skills I’m excited to apply to future projects.
 					</p>
 					<div className="bubbles">
-						<div className="g-bubble">JavaScript</div>
                         <div className="g-bubble">TypeScript</div>
 						<div className="g-bubble">React</div>
 						<div className="g-bubble">Figma</div>

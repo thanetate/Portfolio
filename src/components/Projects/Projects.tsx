@@ -24,7 +24,6 @@ function Projects() {
 					</p>
 					<div className="bubbles">
 						<div className="g-bubble">JavaScript</div>
-						<div className="g-bubble">TypeScript</div>
 						<div className="g-bubble">React</div>
 						<div className="g-bubble">Node.js</div>
 						<div className="g-bubble">Express.js</div>
