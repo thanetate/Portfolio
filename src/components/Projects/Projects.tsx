@@ -12,7 +12,7 @@ function Projects() {
 				<div className="sub-container">
 					<div className="title">Reading Realm</div>
 					<a href="https://reading-realm.vercel.app/" className="newarrow"></a>
-					<a href="https://github.com/thanetate/Reading-Realm" className="exportgithub"></a>
+					<a href="https://github.com/ksheahen/Reading-Realm" className="exportgithub"></a>
 					<p>
 						In a team of four, I helped develop Reading Realm, a social platform
 						and book management system designed for book lovers. I implemented
