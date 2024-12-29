@@ -21,7 +21,7 @@ const Head: React.FC<HeadProps> = ({ theme, toggleTheme }) => {
 				<div className="name">Thane Tate</div>
 				<div className="fullstack">I am a Software Engineer ツ</div>
 				<div className="location">📍 Dallas, Texas</div>
-				<p>Eager to Expand My Skills in Application Development</p>
+				<p>Eager to Expand My Skills in Full-Stack Development</p>
 				<Icons />
 				<div className="scroll">
 					<div className="group">
@@ -43,7 +43,7 @@ const Head: React.FC<HeadProps> = ({ theme, toggleTheme }) => {
 						</a>
 					</div>
 				</div>
-				<div className="version">v3.1.2</div>
+				<div className="version">v3.2.0</div>
 			</div>
 		</>
 	);

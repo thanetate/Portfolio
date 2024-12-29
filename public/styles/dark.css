@@ -17,6 +17,12 @@
 html {
 	scroll-behavior: smooth;
 }
+li {
+	margin-left: 15px;
+	font-size: small;
+	color: #a9a9a9;
+}
+
 
 /* iphone view */
 /* head */
@@ -280,6 +286,7 @@ html {
 }
 .project2-container {
 	margin-top: 40px;
+	margin-bottom: 40px;
 }
 .project3-container {
 	margin-top: 40px;
