@@ -32,6 +32,36 @@ function Projects() {
 					</div>
 				</div>
 			</a>
+			<a className="project3-container">
+				<img className="demo" src="/mapodemo.png" alt="Mapo Demo" />
+				<div className="sub-container">
+					<div className="title">Mapo</div>
+					<a href="https://mapo.dev.bensivo.com/app/" className="newarrow"></a>
+					<a
+						href="https://github.com/bensivo/mapo"
+						className="exportgithub"
+					></a>
+					<p>
+						Contributed to Mapo, a personal project by a senior software
+						developer, by:
+						<br />• Implementing a{" "}
+						<span className="white">folder management feature</span> for
+						organizing user content.
+						<br />• Integrating <span className="white">
+							touch features
+						</span>{" "}
+						for seamless usability on mobile devices.
+						<br />• Developing and writing{" "}
+						<span className="white">unit tests</span> to ensure reliability and
+						maintain high-quality code standards.
+					</p>
+					<div className="bubbles">
+						<div className="g-bubble">Go</div>
+						<div className="g-bubble">Bash</div>
+						<div className="g-bubble">PostgreSQL</div>
+					</div>
+				</div>
+			</a>
 			<a className="project1-container">
 				<img
 					className="demo"
@@ -60,36 +90,6 @@ function Projects() {
 						<div className="g-bubble">Node.js</div>
 						<div className="g-bubble">Express.js</div>
 						<div className="g-bubble">MongoDB</div>
-					</div>
-				</div>
-			</a>
-			<a className="project3-container">
-				<img className="demo" src="/mapodemo.png" alt="Mapo Demo" />
-				<div className="sub-container">
-					<div className="title">Mapo</div>
-					<a href="https://mapo.dev.bensivo.com/app/" className="newarrow"></a>
-					<a
-						href="https://github.com/bensivo/mapo"
-						className="exportgithub"
-					></a>
-					<p>
-						Contributed to Mapo, a personal project by a senior software
-						developer, by:
-						<br />• Implementing a{" "}
-						<span className="white">folder management feature</span> for
-						organizing user content.
-						<br />• Integrating <span className="white">
-							touch features
-						</span>{" "}
-						for seamless usability on mobile devices.
-						<br />• Developing and writing{" "}
-						<span className="white">unit tests</span> to ensure reliability and
-						maintain high-quality code standards.
-					</p>
-					<div className="bubbles">
-						<div className="g-bubble">Go</div>
-						<div className="g-bubble">Bash</div>
-						<div className="g-bubble">PostgreSQL</div>
 					</div>
 				</div>
 			</a>

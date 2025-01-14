@@ -23,10 +23,9 @@ function Skills() {
 			<div className="sub-containers">
 				<div className="title">Backend</div>
 				<div className="bubbles">
-					<div className="p-bubble">.NET Core</div>
+					<div className="p-bubble">.NET</div>
 					<div className="p-bubble">Node.js</div>
 					<div className="p-bubble">Express.js</div>
-					<div className="p-bubble">Git</div>
 				</div>
 			</div>
 			<div className="sub-containers">
@@ -37,10 +36,11 @@ function Skills() {
 				</div>
 			</div>
 			<div className="sub-containers">
-				<div className="title">Management</div>
+				<div className="title">Technologies</div>
 				<div className="bubbles">
+					<div className="y-bubble">Azure</div>
+					<div className="y-bubble">Git</div>
 					<div className="y-bubble">Jira</div>
-					<div className="y-bubble">ClickUp</div>
 				</div>
 			</div>
 		</div>
