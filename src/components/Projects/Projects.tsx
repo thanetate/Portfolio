@@ -1,6 +1,6 @@
 const projects = [
 	{
-		demo: "/mapodemo.png",
+		demo: "/theorydemo.png",
 		title: "Theory Climbing",
 		github: "https://github.com/thanetate/Theory-Climbing",
 		site: "https://theory-climbing.vercel.app/",
