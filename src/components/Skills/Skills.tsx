@@ -29,14 +29,14 @@ function Skills() {
 				</div>
 			</div>
 			<div className="sub-containers">
-				<div className="title">Databases</div>
+				<div className="title">Database</div>
 				<div className="bubbles">
 					<div className="r-bubble">PostgreSQL</div>
                     <div className="r-bubble">MongoDB</div>
 				</div>
 			</div>
 			<div className="sub-containers">
-				<div className="title">Technologies</div>
+				<div className="title">Tools</div>
 				<div className="bubbles">
 					<div className="y-bubble">Azure</div>
 					<div className="y-bubble">Git</div>

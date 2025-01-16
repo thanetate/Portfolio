@@ -147,6 +147,9 @@ li {
 	margin-bottom: 20px;
 	color: #a9a9a9;
 }
+.about-container p:last-child {
+	margin-bottom: 0px;
+}
 .education {
 	display: flex;
 	flex-direction: column;
@@ -156,11 +159,15 @@ li {
 }
 /* skills */
 .skills-container {
-	padding-top: 50px;
+	padding-top: 80px;
 }
 .sub-containers {
 	display: flex;
 	flex-direction: column;
+	margin-top: 15px;
+}
+.sub-containers:first-child {
+	margin-top: 0px;
 }
 .bubbles {
 	display: flex;
@@ -171,7 +178,6 @@ li {
 .skills-container .title {
 	font-size: larger;
 	margin-bottom: 15px;
-	margin-top: 15px;
 }
 .spacer {
 	padding: 5px;
@@ -221,9 +227,45 @@ li {
 	background-color: #524218;
 	color: #e9b207;
 }
+/* Education */
+.education-section h1 {
+	font-size: larger;
+	margin-bottom: 10px;
+}
+.education-section p {
+	word-spacing: 0.1em;
+	line-height: 1.5em;
+	font-size: small;
+	color: #a9a9a9;
+}
+.education-section {
+	display: flex;
+	flex-direction: row;
+	padding-top: 80px;
+}
+.date-container {
+	display: flex;
+	justify-content: start;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+.left-side {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	padding-right: 15px;
+}
+.left-side img {
+    width: 70px;
+    height: auto;
+}
+.right-side {
+	display: flex;
+	flex-direction: column;
+}
 /* experience */
 .experience-container {
-	padding-top: 100px;
+	padding-top: 80px;
 	margin-top: 0px;
 }
 .experience-container .title {
@@ -253,7 +295,6 @@ li {
 	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 50px;
 }
 .experience2-container .date {
 	font-size: small;
@@ -269,7 +310,7 @@ li {
 }
 /* projects */
 .projects-container {
-	padding-top: 50px;
+	padding-top: 80px;
 }
 .demo {
 	/* bump this up to 150 100 */
@@ -285,7 +326,6 @@ li {
 	flex-direction: row;
 }
 .project2-container {
-	margin-top: 40px;
 	margin-bottom: 40px;
 }
 .project3-container {
@@ -396,6 +436,9 @@ li {
 	.experience2-container .sub-container {
 		margin-left: 170px;
 	}
+	.left-side {
+		width: 150px;
+	}
 }
 @media (min-width: 1500px) {
 	.skills-container {
@@ -475,7 +518,6 @@ li {
 	.project2-container,
 	.project3-container,
 	.project4-container {
-		margin-top: 40px;
 		display: flex;
 		flex-direction: row;
 		text-decoration: none;

@@ -135,8 +135,10 @@ html {
 	font-size: medium;
 }
 .about-container p {
-	margin-bottom: 20px;
 	color: #888787;
+}
+.about-container p:last-child {
+	margin-bottom: 0px;
 }
 .education {
 	display: flex;
@@ -146,9 +148,16 @@ html {
 	color: black;
 }
 /* skills */
+.skills-container {
+	padding-top: 80px;
+}
 .sub-containers {
 	display: flex;
 	flex-direction: column;
+	margin-top: 15px;
+}
+.sub-containers:first-child {
+	margin-top: 0px;
 }
 .bubbles {
 	display: flex;
@@ -159,7 +168,6 @@ html {
 .skills-container .title {
 	font-size: larger;
 	margin-bottom: 15px;
-	margin-top: 15px;
 }
 .spacer {
 	padding: 5px;
@@ -209,7 +217,47 @@ html {
 	color: white;
 	background-color: #e9b207;
 }
+/* Education */
+.education-section h1 {
+	font-size: larger;
+	margin-bottom: 10px;
+}
+.education-section p {
+	word-spacing: 0.1em;
+	line-height: 1.5em;
+	font-size: small;
+	color: #a9a9a9;
+}
+.education-section {
+	display: flex;
+	flex-direction: row;
+	padding-top: 80px;
+}
+.date-container {
+	display: flex;
+	justify-content: start;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+.left-side {
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	padding-right: 15px;
+}
+.left-side img {
+    width: 70px;
+    height: auto;
+}
+.right-side {
+	display: flex;
+	flex-direction: column;
+}
 /* experience */
+.experience-container {
+	padding-top: 80px;
+	margin-top: 0px;
+}
 .experience-container .title {
 	font-size: larger;
 	margin-bottom: 10px;
@@ -237,7 +285,6 @@ html {
 	margin-top: 20px;
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 50px;
 }
 .experience2-container .date {
 	font-size: small;
@@ -252,6 +299,9 @@ html {
 	margin-top: 10px;
 }
 /* projects */
+.projects-container {
+	padding-top: 80px;
+}
 .demo {
 	/* bump this up to 150 100 */
 	width: 100px;
@@ -266,7 +316,6 @@ html {
 	flex-direction: row;
 }
 .project2-container {
-	margin-top: 40px;
 	margin-bottom: 40px;
 }
 .project3-container {
@@ -377,8 +426,14 @@ html {
 	.experience2-container .sub-container {
 		margin-left: 170px;
 	}
+	.left-side {
+		width: 150px;
+	}
 }
 @media (min-width: 1500px) {
+	.skills-container {
+		padding-top: 0;
+	}
 	.parent-container {
 		align-items: end;
 	}
@@ -453,7 +508,6 @@ html {
 	.project2-container,
 	.project3-container,
 	.project4-container {
-		margin-top: 40px;
 		display: flex;
 		flex-direction: row;
 		text-decoration: none;
