@@ -1,5 +1,7 @@
 export function Education() {
 	return (
+		<div className="education-s">
+		<div className="title">Education</div>
 		<div className="education-section">
 			<div className="left-side">
 				<img src="/UNT.png" alt="UNT logo" />
@@ -11,6 +13,7 @@ export function Education() {
 				</div>
 				<p>Bachelor of Science, Computer Science</p>
 			</div>
+		</div>
 		</div>
 	);
 }

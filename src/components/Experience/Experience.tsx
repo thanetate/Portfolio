@@ -1,6 +1,7 @@
 function Experience() {
 	return (
 		<div id="Experience" className="experience-container">
+			<div className="e-title">Experience</div>
 			<div className="experience1-container">
 				<div className="date">MAY - AUG 2025</div>
 				<div className="sub-container">
