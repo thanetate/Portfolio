@@ -8,9 +8,9 @@ const projects = [
 			<>
 				🚧 This site is currently under construction 🚧 <br />
 				Theory Climbing is an <span className="white">e-commerce</span> web
-				application I built to sell climbing apparel. Developed with .NET, it
-				features secure authentication via <span className="white">Supabase Auth</span>{" "}
-				and a secure checkout experience using the{" "}
+				application I built to sell climbing apparel. Featuring secure
+				authentication via <span className="white">Supabase Auth</span> and a
+				secure checkout experience using the{" "}
 				<span className="white">Stripe API, </span>
 				providing a seamless and safe shopping experience.
 			</>
