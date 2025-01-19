@@ -3,7 +3,7 @@ const projects = [
 		demo: "/theorydemo.png",
 		title: "Theory Climbing",
 		github: "https://github.com/thanetate/Theory-v2",
-		site: "https://www.thanetate.dev/",
+		site: "https://www.theoryclimbing.com/",
 		desc: (
 			<>
 				🚧 This site is currently under construction 🚧 <br />
