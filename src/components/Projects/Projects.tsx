@@ -2,19 +2,20 @@ const projects = [
 	{
 		demo: "/theorydemo.png",
 		title: "Theory Climbing",
-		github: "https://github.com/thanetate/Theory-Climbing",
-		site: "https://theory-climbing.vercel.app/",
+		github: "https://github.com/thanetate/Theory-v2",
+		site: "https://www.thanetate.dev/",
 		desc: (
 			<>
+				🚧 This site is currently under construction 🚧 <br />
 				Theory Climbing is an <span className="white">e-commerce</span> web
-				application I built to sell climbing apparel. Developed with Next.js, it
-				features secure authentication via <span className="white">Auth0</span>{" "}
+				application I built to sell climbing apparel. Developed with .NET, it
+				features secure authentication via <span className="white">Supabase Auth</span>{" "}
 				and a secure checkout experience using the{" "}
-				<span className="white">PayPal API, </span>
+				<span className="white">Stripe API, </span>
 				providing a seamless and safe shopping experience.
 			</>
 		),
-		bubbles: ["Next.js", "MongoDB"],
+		bubbles: ["C#", ".NET", "Azure", "PostgreSQL"],
 	},
 	{
 		demo: "/mapodemo.png",
