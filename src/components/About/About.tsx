@@ -17,8 +17,8 @@ function About() {
 					balance between front-end creativity and back-end problem-solving.
 				</p>
 				<p>
-					These days, I’m expanding my skills in technologies like React and
-					Node.js, always excited to tackle new challenges. I thrive on
+					These days, I’m expanding my skills in technologies like C# and
+					the .NET Framework, always excited to tackle new challenges. I thrive on
 					collaborating in team settings where I can both learn from others and
 					contribute to solutions. When I’m not coding, you’ll find me{" "}
 					<span className="white"> rock climbing</span>, hanging out with my two
