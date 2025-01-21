@@ -10,9 +10,9 @@ const projects = [
 				Theory Climbing is an <span className="white">e-commerce</span> web
 				application I built to sell climbing apparel. Featuring secure
 				authentication via <span className="white">Supabase Auth</span> and a
-				secure checkout experience using the{" "}
+				secure checkout session using the{" "}
 				<span className="white">Stripe API, </span>
-				providing a seamless and safe shopping experience.
+				this site ensures a safe and user-friendly shopping experience.
 			</>
 		),
 		bubbles: ["C#", ".NET", "Azure", "PostgreSQL"],
