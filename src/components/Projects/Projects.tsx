@@ -45,14 +45,10 @@ const projects = [
 		github: "https://github.com/ksheahen/Reading-Realm",
 		desc: (
 			<>
-				Reading Realm is a{" "}
-				<span className="white">book management system </span>and{" "}
-				<span className="white">social platform</span> built with a team of
-				four. It features{" "}
-				<span className="white">Google Books API integration, </span>
-				secure authentication, personalized reading lists, reading goals, and
-				social features to connect book lovers. Agile methodologies and customer
-				feedback guided development for a user-focused experience.
+				Reading Realm is a platform for book lovers to track their reading,
+				share reviews, and set goals with the help of the <span className="white">Google Books API.</span> It
+				features secure authentication using <span className="white">JWT</span> and delivers a user-focused
+				experience shaped by customer feedback.
 			</>
 		),
 		bubbles: ["React", "Node.js", "Express.js", "MongoDB"],
