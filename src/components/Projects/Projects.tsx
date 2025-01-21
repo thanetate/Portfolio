@@ -43,7 +43,6 @@ const projects = [
 		demo: "/readingrealm.png",
 		title: "Reading Realm",
 		github: "https://github.com/ksheahen/Reading-Realm",
-		site: "https://reading-realm.vercel.app/",
 		desc: (
 			<>
 				Reading Realm is a{" "}

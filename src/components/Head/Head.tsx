@@ -1,23 +1,16 @@
 import Icons from "../Icons/Icons";
-import PropTypes from "prop-types";
 
-interface HeadProps {
-	theme: string;
-	toggleTheme: () => void;
-}
-
-const Head: React.FC<HeadProps> = ({ theme, toggleTheme }) => {
+export default function Head() {
 	return (
 		<>
 			<div className="head-container">
 				<img
-					className="smalllightdark"
-					src={theme === "dark" ? "/icons/sun.svg" : "/icons/moon.svg"}
-					alt="Toggle Theme Icon"
-					onClick={toggleTheme}
-					style={{ cursor: "pointer" }}
+					className="profile"
+					src="/profile3.png"
+					alt="Profile Picture"
+					width="150px"
+					height="150px"
 				/>
-				<img className="profile" src="/profile3.png" alt="Profile Picture" width="150px" height="150px"/>
 				<div className="name">Thane Tate</div>
 				<div className="fullstack">I am a Software Engineer ツ</div>
 				<div className="location">📍 Dallas, Texas</div>
@@ -47,11 +40,4 @@ const Head: React.FC<HeadProps> = ({ theme, toggleTheme }) => {
 			</div>
 		</>
 	);
-};
-
-Head.propTypes = {
-	theme: PropTypes.string.isRequired,
-	toggleTheme: PropTypes.func.isRequired,
-};
-
-export default Head;
+}

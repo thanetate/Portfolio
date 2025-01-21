@@ -4,7 +4,7 @@ function About() {
 			<div className="education">
 				<p>
 					Hey, I’m Thane! My journey into tech began with a curiosity for
-					creating websites, and today, I’m a junior at the
+					creating websites, and today, I’m a student at the
 					<span className="white"> University of North Texas</span> studying
 					computer science with a minor in mathematics set to graduate in
 					<span className="white"> May 2026</span>.

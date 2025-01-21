@@ -149,7 +149,7 @@ html {
 }
 /* skills */
 .skills-container {
-	padding-top: 80px;
+	padding-top: 100px;
 }
 .sub-containers {
 	display: flex;
@@ -233,11 +233,11 @@ html {
 	flex-direction: row;
 }
 .education-s {
-	padding-top: 80px;
+	padding-top: 100px;
 }
 .education-s .title {
 	font-size: larger;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .date-container {
 	display: flex;
@@ -266,11 +266,11 @@ html {
 }
 .experience-container .title {
 	font-size: larger;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 .experience-container .e-title {
 	font-size: larger;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 }
 .experience-container p {
 	word-spacing: 0.1em;
@@ -312,7 +312,7 @@ html {
 }
 /* projects */
 .projects-container {
-	padding-top: 80px;
+	padding-top: 100px;
 }
 .demo {
 	/* bump this up to 150 100 */
@@ -341,7 +341,7 @@ html {
 	font-size: larger;
 }
 .p-title {
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	font-size: larger;
 }
 .sub-container {
@@ -397,18 +397,15 @@ html {
 .project2-container .exportgithub {
 	margin-left: 90px;
 }
-.project3-container .newarrow {
-	margin-left: 145px;
-}
 .project3-container .exportgithub {
-	margin-left: 175px;
+	margin-left: 150px;
 }
 .project4-container .exportgithub {
 	margin-left: 145px;
 }
 /* footer */
 .footer-container {
-	margin-top: 40px;
+	margin-top: 100px;
 	margin-bottom: 20px;
 	display: flex;
 	justify-content: center;
@@ -510,10 +507,10 @@ html {
 		margin-right: 150px;
 	}
 	.about-container {
-		padding-top: 100px;
+		padding-top: 80px;
 	}
 	.skills-container {
-		margin-top: 50px;
+		margin-top: 100px;
 	}
 	.experience-container {
 		padding-top: 100px;
@@ -590,9 +587,6 @@ html {
 	.project2-container .newarrow {
 		margin-left: 60px;
 	}
-	.project3-container .newarrow {
-		margin-left: 145px;
-	}
 	.project1-container .newarrow {
 		margin-left: 155px;
 	}
@@ -603,7 +597,7 @@ html {
 		margin-left: 85px;
 	}
 	.project3-container .exportgithub {
-		margin-left: 170px;
+		margin-left: 145px;
 	}
 	.project4-container .exportgithub {
 		margin-left: 145px;
