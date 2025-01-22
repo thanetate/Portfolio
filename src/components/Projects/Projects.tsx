@@ -6,7 +6,6 @@ const projects = [
 		site: "https://www.theoryclimbing.com/",
 		desc: (
 			<>
-				🚧 This site is currently under construction 🚧 <br />
 				Theory Climbing is an <span className="white">e-commerce</span> web
 				application I built to sell climbing apparel. Featuring secure
 				authentication via <span className="white">Supabase Auth</span> and a
@@ -15,7 +14,7 @@ const projects = [
 				this site ensures a safe and user-friendly shopping experience.
 			</>
 		),
-		bubbles: ["C#", ".NET", "Azure", "PostgreSQL"],
+		bubbles: ["React", "ASP.NET Core", "PostgreSQL", "Azure"],
 	},
 	{
 		demo: "/mapodemo.png",
@@ -25,19 +24,15 @@ const projects = [
 		desc: (
 			<>
 				Contributed to Mapo, a personal project by a senior software developer,
-				by:
-				<br />• Implementing a{" "}
+				by: Implementing a{" "}
 				<span className="white">folder management feature</span> for organizing
-				user content.
-				<br />• Integrating <span className="white">touch features</span> for
-				seamless usability on mobile devices.
-				<br />• Developing and writing <span className="white">
-					unit tests
-				</span>{" "}
-				to ensure reliability and maintain high-quality code standards.
+				user content. Integrating <span className="white">touch features</span>{" "}
+				for seamless usability on mobile devices. Developing and writing{" "}
+				<span className="white">unit tests</span> to ensure reliability and
+				maintain high-quality code standards.
 			</>
 		),
-		bubbles: ["Go", "Bash", "TypeScript", "PostgreSQL"],
+		bubbles: ["Angular", "Go", "PostgreSQL"],
 	},
 	{
 		demo: "/readingrealm.png",
@@ -46,9 +41,10 @@ const projects = [
 		desc: (
 			<>
 				Reading Realm is a platform for book lovers to track their reading,
-				share reviews, and set goals with the help of the <span className="white">Google Books API.</span> It
-				features secure authentication using <span className="white">JWT</span> and delivers a user-focused
-				experience shaped by customer feedback.
+				share reviews, and set goals with the help of the{" "}
+				<span className="white">Google Books API.</span> It features secure
+				authentication using <span className="white">JWT</span> and delivers a
+				user-focused experience shaped by customer feedback.
 			</>
 		),
 		bubbles: ["React", "Node.js", "Express.js", "MongoDB"],

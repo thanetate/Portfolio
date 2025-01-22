@@ -23,7 +23,6 @@ li {
 	color: #a9a9a9;
 }
 
-
 /* iphone view */
 /* head */
 .head-container {
@@ -262,8 +261,8 @@ li {
 	padding-right: 15px;
 }
 .left-side img {
-    width: 70px;
-    height: auto;
+	width: 70px;
+	height: auto;
 }
 .right-side {
 	display: flex;
@@ -426,7 +425,50 @@ li {
 	font-size: small;
 	color: #a9a9a9;
 }
-
+@media (max-width: 500px) {
+	.head-container {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.about-container {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.skills-container {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.education-s {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.projects-container {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.sub-container p {
+		margin-bottom: 15px;
+	}
+	.project1-container,
+	.project2-container,
+	.project3-container,
+	.project4-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.demo {
+		max-width: 200px;
+		max-height: 150px;
+		width: 100%;
+		height: auto;
+		margin-top: 15px;
+		order: 2;
+	}
+	.sub-container {
+		order: 1;
+		margin-left: 0px;
+	}
+}
 /* media to change demo pics height and width */
 @media (min-width: 500px) {
 	/* parent */
@@ -525,7 +567,6 @@ li {
 	}
 	.experience-container {
 		padding-top: 100px;
-	
 	}
 	/* effects */
 	.project1-container,
