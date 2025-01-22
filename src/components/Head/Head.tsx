@@ -24,9 +24,9 @@ export default function Head() {
 						</a>
 					</div>
 					<div className="group">
-						<a className="experience" href="#Experience">
+						<a className="experience" href="#Education">
 							<div className="newscroll"></div>
-							<span>EXPERIENCE</span>
+							<span>EDUCATION</span>
 						</a>
 					</div>
 					<div className="group">

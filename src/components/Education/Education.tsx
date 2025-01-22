@@ -1,6 +1,6 @@
 export function Education() {
 	return (
-		<div className="education-s">
+		<div id="Education" className="education-s">
 		<div className="title">Education</div>
 		<div className="education-section">
 			<div className="left-side">
