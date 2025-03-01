@@ -1,7 +1,7 @@
 function Footer() {
 	return (
 		<div className="footer-container">
-			<p>© 2024 Thane Tate. All rights reserved.</p>
+			<p>© 2025 Thane Tate. All rights reserved.</p>
 		</div>
 	);
 }
