@@ -310,6 +310,14 @@ html {
 .experience2-container .bubbles {
 	margin-top: 10px;
 }
+.experience2-container .title-arrow-container {
+	display: flex;
+	flex-direction: row;
+}
+.e-arrow {
+	width: 25px;
+	height: 25px;
+}
 /* projects */
 .projects-container {
 	padding-top: 100px;

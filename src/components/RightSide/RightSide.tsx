@@ -1,5 +1,5 @@
 import About from "../About/About";
-// import Experience from "../Experience/Experience";
+import Experience from "../Experience/Experience";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Footer from "../Footer/Footer";
@@ -11,7 +11,7 @@ function RightSide() {
 			<About />
 			<Skills />
 			<Education />
-			{/* <Experience /> */}
+			<Experience />
 			<Projects />
 			<Footer />
 		</div>
