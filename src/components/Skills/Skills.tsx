@@ -13,11 +13,11 @@ function Skills() {
 				</div>
 			</div>
 			<div className="sub-containers">
-				<div className="title">Frontend & Design</div>
+				<div className="title">Frontend</div>
 				<div className="bubbles">
 					<div className="g-bubble">React</div>
 					<div className="g-bubble">Next.js</div>
-					<div className="g-bubble">Figma</div>
+
 				</div>
 			</div>
 			<div className="sub-containers">
@@ -40,7 +40,7 @@ function Skills() {
 				<div className="bubbles">
 					<div className="y-bubble">Git</div>
 					<div className="y-bubble">Azure</div>
-					<div className="y-bubble">Jira</div>
+					<div className="y-bubble">AWS</div>
 				</div>
 			</div>
 		</div>

@@ -385,16 +385,16 @@ html {
 	-webkit-mask: url(/icons/github.svg) no-repeat center;
 	mask: url(/icons/github.svg) no-repeat center;
 }
-.project1-container .newarrow {
+.project2-container .newarrow {
 	margin-left: 155px;
 }
-.project1-container .exportgithub {
+.project2-container .exportgithub {
 	margin-left: 185px;
 }
-.project2-container .newarrow {
+.project1-container .newarrow {
 	margin-left: 60px;
 }
-.project2-container .exportgithub {
+.project1-container .exportgithub {
 	margin-left: 90px;
 }
 .project3-container .exportgithub {
@@ -627,16 +627,16 @@ html {
 		-webkit-mask: url(/icons/github.svg) no-repeat center;
 		mask: url(/icons/github.svg) no-repeat center;
 	}
-	.project2-container .newarrow {
+	.project1-container .newarrow {
 		margin-left: 60px;
 	}
-	.project1-container .newarrow {
+	.project2-container .newarrow {
 		margin-left: 155px;
 	}
-	.project1-container .exportgithub {
+	.project2-container .exportgithub {
 		margin-left: 180px;
 	}
-	.project2-container .exportgithub {
+	.project1-container .exportgithub {
 		margin-left: 85px;
 	}
 	.project3-container .exportgithub {

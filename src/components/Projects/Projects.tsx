@@ -1,5 +1,22 @@
 const projects = [
 	{
+		demo: "/mapodemo.png",
+		title: "Mapo",
+		github: "https://github.com/bensivo/mapo",
+		site: "https://mapo.dev.bensivo.com/app/",
+		desc: (
+			<>
+				Contributed to a browser-based mind mapping tool by: Implementing a{" "}
+				<span className="white">folder management feature</span> for organizing
+				user content. Integrating <span className="white">touch features</span>{" "}
+				for seamless usability on mobile devices. Developing and writing{" "}
+				<span className="white">unit tests</span> to ensure reliability and
+				maintain high-quality code standards.
+			</>
+		),
+		bubbles: ["Angular", "Go", "PostgreSQL"],
+	},
+	{
 		demo: "/theorydemo.png",
 		title: "Theory Climbing",
 		github: "https://github.com/thanetate/Theory-v2",
@@ -15,24 +32,6 @@ const projects = [
 			</>
 		),
 		bubbles: ["React", "ASP.NET Core", "PostgreSQL", "Azure"],
-	},
-	{
-		demo: "/mapodemo.png",
-		title: "Mapo",
-		github: "https://github.com/bensivo/mapo",
-		site: "https://mapo.dev.bensivo.com/app/",
-		desc: (
-			<>
-				Contributed to Mapo, a personal project by a senior software developer,
-				by: Implementing a{" "}
-				<span className="white">folder management feature</span> for organizing
-				user content. Integrating <span className="white">touch features</span>{" "}
-				for seamless usability on mobile devices. Developing and writing{" "}
-				<span className="white">unit tests</span> to ensure reliability and
-				maintain high-quality code standards.
-			</>
-		),
-		bubbles: ["Angular", "Go", "PostgreSQL"],
 	},
 	{
 		demo: "/readingrealm.png",
