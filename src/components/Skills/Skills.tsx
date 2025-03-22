@@ -16,7 +16,7 @@ function Skills() {
 				<div className="title">Frontend</div>
 				<div className="bubbles">
 					<div className="g-bubble">React</div>
-					<div className="g-bubble">Next.js</div>
+					<div className="g-bubble">Angular</div>
 
 				</div>
 			</div>
