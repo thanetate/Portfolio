@@ -466,6 +466,9 @@ li {
 	.left-side {
 		width: 150px;
 	}
+	.experience-container .sub-container {
+		margin-left: 0px;
+	}
 }
 @media (min-width: 1500px) {
 	.skills-container {
@@ -660,10 +663,10 @@ li {
 		position: absolute;
 	}
 	.experience1-container .sub-container {
-		margin-left: 115px;
+		margin-left: 155px;
 	}
 	.experience2-container {
-		margin-top: 20px;
+		margin-top: 40px;
 		display: flex;
 		flex-direction: row;
 	}
@@ -675,7 +678,7 @@ li {
 		position: absolute;
 	}
 	.experience2-container .sub-container {
-		margin-left: 115px;
+		margin-left: 155px;
 	}
 	.experience2-container .bubbles {
 		margin-top: 10px;
