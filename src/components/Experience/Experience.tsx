@@ -25,11 +25,7 @@ function Experience() {
 				<div className="sub-container">
 					<div className="title-arrow-container">
 						<div className="title">Freelance Web Developer</div>
-						<img
-							className="arrow"
-							src="/icons/arrowslant.svg"
-							alt="Export Icon"
-						/>
+						<a href={''} className="newarrow"></a>
 					</div>
 					<p>
 						At HackUNT 2024, I tackled front-end development on a fast-paced

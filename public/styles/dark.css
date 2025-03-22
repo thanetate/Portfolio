@@ -290,10 +290,10 @@ li {
 	display: flex;
 	flex-direction: row;
 }
-.experience2-container .arrow {
+.experience2-container .newarrow {
 	width: 20px;
 	height: 20px;
-	margin-left: 10px;
+	margin-left: 200px;
 	margin-top: 1px;
 }
 /* projects */
@@ -687,10 +687,10 @@ li {
 		display: flex;
 		flex-direction: row;
 	}
-	.experience2-container .arrow {
+	.experience2-container .newarrow {
 		width: 20px;
 		height: 20px;
-		margin-left: 10px;
+		margin-left: 240px;
 		margin-top: 3px;
 	}
 }

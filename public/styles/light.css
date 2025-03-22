@@ -252,12 +252,40 @@ html {
 	padding-right: 15px;
 }
 .left-side img {
-    width: 70px;
-    height: auto;
+	width: 70px;
+	height: auto;
 }
 .right-side {
 	display: flex;
 	flex-direction: column;
+}
+/* experience */
+.experience-container {
+	margin-top: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.e-title {
+	margin-bottom: 30px;
+	font-size: larger;
+}
+.date {
+	font-size: small;
+	color: grey;
+	margin-bottom: 5px;
+}
+.experience2-container {
+	margin-top: 40px;
+}
+.experience2-container .title-arrow-container {
+	display: flex;
+	flex-direction: row;
+}
+.experience2-container .newarrow {
+	width: 20px;
+	height: 20px;
+	margin-left: 200px;
+	margin-top: 1px;
 }
 /* projects */
 .projects-container {
@@ -428,6 +456,9 @@ html {
 	.left-side {
 		width: 150px;
 	}
+	.experience-container .sub-container {
+		margin-left: 0px;
+	}
 }
 @media (min-width: 1500px) {
 	.skills-container {
@@ -500,7 +531,6 @@ html {
 	}
 	.experience-container {
 		padding-top: 100px;
-	
 	}
 	/* effects */
 	.project1-container,
@@ -589,62 +619,65 @@ html {
 		margin-left: 145px;
 	}
 	/* experience */
-.experience-container {
-	padding-top: 80px;
-	margin-top: 0px;
-}
-.experience-container .title {
-	font-size: larger;
-	margin-bottom: 30px;
-}
-.experience-container .e-title {
-	font-size: larger;
-	margin-bottom: 10px;
-}
-.experience-container p {
-	word-spacing: 0.1em;
-	line-height: 1.5em;
-	font-size: small;
-	color: #888787;
-}
-.experience1-container {
-	display: flex;
-	flex-direction: row;
-}
-.experience1-container .date {
-	font-size: small;
-	color: #888787;
-	padding: 5px;
-	padding-left: 0px;
-	position: absolute;
-}
-.experience1-container .sub-container {
-	margin-left: 115px;
-}
-.experience2-container {
-	margin-top: 20px;
-	display: flex;
-	flex-direction: row;
-}
-.experience2-container .date {
-	font-size: small;
-	color: #888787;
-	padding: 5px;
-	padding-left: 0px;
-	position: absolute;
-}
-.experience2-container .sub-container {
-	margin-left: 115px;
-}
-.experience2-container .bubbles {
-	margin-top: 10px;
-}
-.experience2-container .title-arrow-container {
-	display: flex;
-	flex-direction: row;
-}
-.e-arrow {
-	width: 25px;
-	height: 25px;
-}
+	.experience-container {
+		padding-top: 100px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.experience-container .e-title {
+		font-size: larger;
+		margin-bottom: 30px;
+	}
+	.experience-container .title {
+		font-size: larger;
+		margin-bottom: 10px;
+	}
+	.experience-container p {
+		word-spacing: 0.1em;
+		line-height: 1.5em;
+		font-size: small;
+		color: #888787;
+	}
+	.experience1-container {
+		display: flex;
+		flex-direction: row;
+	}
+	.experience1-container .date {
+		font-size: small;
+		color: #888787;
+		padding: 5px;
+		padding-left: 0px;
+		position: absolute;
+	}
+	.experience1-container .sub-container {
+		margin-left: 155px;
+	}
+	.experience2-container {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+	}
+	.experience2-container .date {
+		font-size: small;
+		color: #888787;
+		padding: 5px;
+		padding-left: 0px;
+		position: absolute;
+	}
+	.experience2-container .sub-container {
+		margin-left: 155px;
+	}
+	.experience2-container .bubbles {
+		margin-top: 10px;
+	}
+	.experience2-container .title-arrow-container {
+		display: flex;
+		flex-direction: row;
+	}
+	.experience2-container .newarrow {
+		width: 20px;
+		height: 20px;
+		margin-left: 240px;
+		margin-top: 3px;
+	}
 }
