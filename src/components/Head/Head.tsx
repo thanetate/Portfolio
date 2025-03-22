@@ -30,6 +30,12 @@ export default function Head() {
 						</a>
 					</div>
 					<div className="group">
+						<a className="experience" href="#Experience">
+							<div className="newscroll"></div>
+							<span>EXPERIENCE</span>
+						</a>
+					</div>
+					<div className="group">
 						<a className="projects" href="#Projects">
 							<div className="newscroll"></div>
 							<span>PROJECTS</span>
