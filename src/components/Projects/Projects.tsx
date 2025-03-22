@@ -48,22 +48,22 @@ const projects = [
 		),
 		bubbles: ["React", "Node.js", "Express.js", "MongoDB"],
 	},
-	{
-		demo: "/libraryloandemo.png",
-		title: "Library System",
-		github: "https://github.com/thanetate/Library-Management-System",
-		desc: (
-			<>
-				Library Loan Management System is a software solution I developed to
-				streamline the organization of library loans, patrons, and books. Built
-				with <span className="white">Object-Oriented Programming</span>{" "}
-				principles and automated using a Makefile, it simplifies library
-				operations and demonstrates my ability to design efficient, real-world
-				solutions.
-			</>
-		),
-		bubbles: ["C++", "Makefile"],
-	},
+	// {
+	// 	demo: "/libraryloandemo.png",
+	// 	title: "Library System",
+	// 	github: "https://github.com/thanetate/Library-Management-System",
+	// 	desc: (
+	// 		<>
+	// 			Library Loan Management System is a software solution I developed to
+	// 			streamline the organization of library loans, patrons, and books. Built
+	// 			with <span className="white">Object-Oriented Programming</span>{" "}
+	// 			principles and automated using a Makefile, it simplifies library
+	// 			operations and demonstrates my ability to design efficient, real-world
+	// 			solutions.
+	// 		</>
+	// 	),
+	// 	bubbles: ["C++", "Makefile"],
+	// },
 ];
 
 function Projects() {
