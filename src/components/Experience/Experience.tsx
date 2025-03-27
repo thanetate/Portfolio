@@ -25,14 +25,13 @@ function Experience() {
 				<div className="sub-container">
 					<div className="title-arrow-container">
 						<div className="title">Freelance Web Developer</div>
-						<a href={''} className="newarrow"></a>
+						<a href={""} className="newarrow"></a>
 					</div>
 					<p>
-						At HackUNT 2024, I tackled front-end development on a fast-paced
-						team, using Figma and the MERN stack to bring our project from idea
-						to reality within 24 hours. This experience strengthened my creative
-						problem-solving skills, teamwork, and adaptability under pressure -
-						key skills I’m excited to apply to future projects.
+						Developed a portfolio website for a photography student, ensuring a
+						minimalistic design and user-friendly experience. Leveraged{" "}
+						<span className="white">EmailJS</span> to create a seamless contact
+						form, allowing easy communication between visitors and the client.
 					</p>
 					<div className="bubbles">
 						<div className="g-bubble">React</div>
