@@ -9,10 +9,10 @@ function Experience() {
 						Software Engineer Intern ・ Fisher Investments{" "}
 					</div>
 					<p>
-						Excited to join Fisher Investments as an Application Developer
-						Intern, where I’ll dive into hands-on experience in financial
-						technology, strengthen my coding skills, and contribute to impactful
-						projects in a collaborative setting.
+						Excited to join Fisher Investments as an Software Engineer Intern,
+						where I’ll dive into hands-on experience in financial technology,
+						strengthen my coding skills, and contribute to impactful projects in
+						a collaborative setting.
 					</p>
 					<div className="bubbles">
 						<div className="g-bubble">React</div>
@@ -25,13 +25,17 @@ function Experience() {
 				<div className="sub-container">
 					<div className="title-arrow-container">
 						<div className="title">Freelance Web Developer</div>
-						<a href={""} className="newarrow"></a>
+						{/* <a href={"https://jayden-portfolio-pi.vercel.app/"} className="newarrow"></a> */}
 					</div>
 					<p>
-						Developed a portfolio website for a photography student, ensuring a
-						minimalistic design and user-friendly experience. Leveraged{" "}
-						<span className="white">EmailJS</span> to create a seamless contact
-						form, allowing easy communication between visitors and the client.
+						Developed a custom portfolio website for a photography student,
+						focusing on a minimal aesthetic,{" "}
+						<span className="white">performance</span>, and{" "}
+						<span className="white">SEO</span>. Conducted multiple rounds of
+						client feedback to ensure the final product met expectations.
+						Leveraged <span className="white">EmailJS</span> to create a
+						seamless contact form, enabling easy communication between visitors
+						and the client.
 					</p>
 					<div className="bubbles">
 						<div className="g-bubble">React</div>

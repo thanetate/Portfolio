@@ -7,11 +7,12 @@ const projects = [
 		desc: (
 			<>
 				Contributed to a browser-based mind mapping tool by: Implementing a{" "}
-				<span className="white">folder management feature</span> for organizing
-				user content. Integrating <span className="white">touch features</span>{" "}
-				for seamless usability on mobile devices. Developing and writing{" "}
-				<span className="white">unit tests</span> to ensure reliability and
-				maintain high-quality code standards.
+				<span className="white">folder management feature</span> to help users
+				organize content efficiently. Integrating{" "}
+				<span className="white">touch features</span> for a seamless mobile
+				experience. Developing a{" "}
+				<span className="white">comment feature</span> that enables users to add
+				text annotations directly onto the canvas, enhancing idea organization.
 			</>
 		),
 		bubbles: ["Angular", "Go", "PostgreSQL"],

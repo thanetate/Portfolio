@@ -686,6 +686,7 @@ li {
 	.experience2-container .title-arrow-container {
 		display: flex;
 		flex-direction: row;
+		height: 23px;
 	}
 	.experience2-container .newarrow {
 		width: 20px;
