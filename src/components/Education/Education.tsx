@@ -12,6 +12,7 @@ export function Education() {
 					<p>May 2026</p>
 				</div>
 				<p>Bachelor of Science, Computer Science</p>
+				<p>Minor in Mathematics</p>
 			</div>
 		</div>
 		</div>
