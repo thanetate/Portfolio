@@ -310,6 +310,13 @@ html {
 .project3-container {
 	margin-top: 40px;
 	margin-bottom: 40px;
+	border-width: 2px;
+}
+/* this is needed because, the background color is the same as the demo */
+.project3-container .demo {
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
 }
 .project4-container {
 	margin-top: 40px;
