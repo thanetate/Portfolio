@@ -15,8 +15,8 @@ function Experience() {
 						a collaborative setting.
 					</p>
 					<div className="bubbles">
-						<div className="g-bubble">React</div>
-						<div className="g-bubble">Figma</div>
+						{/* <div className="g-bubble">React</div> */}
+						{/* <div className="g-bubble">Figma</div> */}
 					</div>
 				</div>
 			</div>

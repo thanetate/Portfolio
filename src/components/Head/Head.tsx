@@ -42,7 +42,7 @@ export default function Head() {
 						</a>
 					</div>
 				</div>
-				<div className="version">v3.2.0</div>
+				<div className="version">v3.3.0</div>
 			</div>
 		</>
 	);
