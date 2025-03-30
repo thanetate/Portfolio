@@ -424,8 +424,8 @@ html {
 		flex-direction: column;
 	}
 	.demo {
-		max-width: 200px;
-		max-height: 150px;
+		max-width: 500px;
+		max-height: auto;
 		width: 100%;
 		height: auto;
 		margin-top: 15px;
@@ -625,6 +625,7 @@ html {
 		margin-bottom: 0px;
 	}
 	.experience-container .e-title {
+		margin-left: -10px;
 		font-size: larger;
 		margin-bottom: 30px;
 	}
@@ -647,6 +648,7 @@ html {
 		color: #888787;
 		padding: 5px;
 		padding-left: 0px;
+		margin-left: -10px;
 		position: absolute;
 	}
 	.experience1-container .sub-container {
@@ -661,6 +663,7 @@ html {
 		font-size: small;
 		color: #888787;
 		padding: 5px;
+		margin-left: -10px;
 		padding-left: 0px;
 		position: absolute;
 	}

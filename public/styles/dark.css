@@ -638,6 +638,7 @@ li {
 		margin-bottom: 0px;
 	}
 	.experience-container .e-title {
+		margin-left: -10px;
 		font-size: larger;
 		margin-bottom: 30px;
 	}
@@ -660,6 +661,7 @@ li {
 		color: #a9a9a9;
 		padding: 5px;
 		padding-left: 0px;
+		margin-left: -10px;
 		position: absolute;
 	}
 	.experience1-container .sub-container {
@@ -675,6 +677,7 @@ li {
 		color: #a9a9a9;
 		padding: 5px;
 		padding-left: 0px;
+		margin-left: -10px;
 		position: absolute;
 	}
 	.experience2-container .sub-container {
