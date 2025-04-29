@@ -4,6 +4,7 @@ import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Footer from "../Footer/Footer";
 import { Education } from "../Education/Education";
+import "./RightSide.css";
 
 function RightSide() {
 	return (

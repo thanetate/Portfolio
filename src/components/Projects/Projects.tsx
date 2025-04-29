@@ -1,3 +1,5 @@
+import "./Projects.css";
+
 const projects = [
 	{
 		demo: "/mapodemo.png",

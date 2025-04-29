@@ -1,3 +1,5 @@
+import "./Experience.css";
+
 function Experience() {
 	return (
 		<div id="Experience" className="experience-container">

@@ -1,4 +1,5 @@
 import Icons from "../Icons/Icons";
+import "./Head.css";
 
 export default function Head() {
 	return (
@@ -42,7 +43,7 @@ export default function Head() {
 						</a>
 					</div>
 				</div>
-				<div className="version">v3.3.0</div>
+				<div className="version">v3.3.1</div>
 			</div>
 		</>
 	);
