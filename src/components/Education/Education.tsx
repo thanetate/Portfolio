@@ -1,3 +1,5 @@
+import "./Education.css";
+
 export function Education() {
 	return (
 		<div id="Education" className="education-s">

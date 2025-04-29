@@ -1,0 +1,11 @@
+.footer-container {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.footer-container p {
+	font-size: small;
+	color: #a9a9a9;
+}

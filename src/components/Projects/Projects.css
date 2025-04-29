@@ -1,151 +1,7 @@
-
-
-/* skills */
-.skills-container {
-	padding-top: 100px;
-}
-.sub-containers {
-	display: flex;
-	flex-direction: column;
-	margin-top: 15px;
-}
-.sub-containers:first-child {
-	margin-top: 0px;
-}
-.bubbles {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	gap: 10px;
-}
-.skills-container .title {
-	font-size: larger;
-	margin-bottom: 15px;
-}
-.spacer {
-	padding: 5px;
-}
-.b-bubble {
-	font-size: small;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 100px;
-	background-color: #1e3356;
-	color: #3b81f6;
-}
-.g-bubble {
-	font-size: small;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 100px;
-	background-color: #1c4829;
-	color: #21c55d;
-}
-.p-bubble {
-	font-size: small;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 100px;
-	background-color: #3e2657;
-	color: #a854f7;
-}
-.r-bubble {
-	font-size: small;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 100px;
-	background-color: #552221;
-	color: #ef4444;
-}
-.y-bubble {
-	font-size: small;
-	padding: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	border-radius: 100px;
-	background-color: #524218;
-	color: #e9b207;
-}
-/* Education */
-.education-section h1 {
-	font-size: larger;
-	margin-bottom: 10px;
-}
-.education-section p {
-	word-spacing: 0.1em;
-	line-height: 1.5em;
-	font-size: small;
-	color: #a9a9a9;
-}
-.education-s {
-	padding-top: 100px;
-}
-.education-s .title {
-	font-size: larger;
-	margin-bottom: 30px;
-}
-.education-section {
-	display: flex;
-	flex-direction: row;
-}
-.date-container {
-	display: flex;
-	justify-content: start;
-	padding-right: 10px;
-	margin-bottom: 10px;
-}
-.left-side {
-	display: flex;
-	flex-direction: column;
-	width: 100px;
-	padding-right: 15px;
-}
-.left-side img {
-	width: 70px;
-	height: auto;
-}
-.right-side {
-	display: flex;
-	flex-direction: column;
-}
-/* experience */
-.experience-container {
-	margin-top: 100px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.e-title {
-	margin-bottom: 30px;
-	font-size: larger;
-}
-.date {
-	font-size: small;
-	color: grey;
-	margin-bottom: 5px;
-}
-.experience2-container {
-	margin-top: 40px;
-}
-.experience2-container .title-arrow-container {
-	display: flex;
-	flex-direction: row;
-}
-.experience2-container .newarrow {
-	width: 20px;
-	height: 20px;
-	margin-left: 200px;
-	margin-top: 1px;
-}
-/* projects */
 .projects-container {
 	padding-top: 100px;
 }
 .demo {
-	/* bump this up to 150 100 */
 	width: 100px;
 	height: 50px;
 	border-radius: 5px;
@@ -234,30 +90,9 @@
 .project4-container .exportgithub {
 	margin-left: 145px;
 }
-/* footer */
-.footer-container {
-	margin-top: 100px;
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-}
-.footer-container p {
-	font-size: small;
-	color: #a9a9a9;
-}
-@media (max-width: 500px) {
 
-	
-	.skills-container {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	.education-s {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	.projects-container {
+@media (max-width: 500px) {
+    .projects-container {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
@@ -282,36 +117,20 @@
 	.sub-container {
 		order: 1;
 		margin-left: 0px;
-	}
+	}   
 }
-/* media to change demo pics height and width */
 @media (min-width: 500px) {
-	
-	.demo {
+    .demo {
 		width: 150px;
 		height: 100px;
 	}
 	.left-side {
 		width: 150px;
 	}
-	.experience-container .sub-container {
-		margin-left: 0px;
-	}
 }
-@media (min-width: 1500px) {
-	.skills-container {
-		padding-top: 0;
-	}	
-	
 
-	.skills-container {
-		margin-top: 100px;
-	}
-	.experience-container {
-		padding-top: 100px;
-	}
-	/* effects */
-	.project1-container,
+@media (min-width: 1500px) {
+    .project1-container,
 	.project2-container,
 	.project3-container,
 	.project4-container {
@@ -398,71 +217,5 @@
 	}
 	.project4-container .exportgithub {
 		margin-left: 145px;
-	}
-	/* experience */
-	.experience-container {
-		padding-top: 100px;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-	.experience-container .e-title {
-		margin-left: -10px;
-		font-size: larger;
-		margin-bottom: 30px;
-	}
-	.experience-container .title {
-		font-size: larger;
-		margin-bottom: 10px;
-	}
-	.experience-container p {
-		word-spacing: 0.1em;
-		line-height: 1.5em;
-		font-size: small;
-		color: #a9a9a9;
-	}
-	.experience1-container {
-		display: flex;
-		flex-direction: row;
-	}
-	.experience1-container .date {
-		font-size: small;
-		color: #a9a9a9;
-		padding: 5px;
-		padding-left: 0px;
-		margin-left: -10px;
-		position: absolute;
-	}
-	.experience1-container .sub-container {
-		margin-left: 155px;
-	}
-	.experience2-container {
-		margin-top: 40px;
-		display: flex;
-		flex-direction: row;
-	}
-	.experience2-container .date {
-		font-size: small;
-		color: #a9a9a9;
-		padding: 5px;
-		padding-left: 0px;
-		margin-left: -10px;
-		position: absolute;
-	}
-	.experience2-container .sub-container {
-		margin-left: 155px;
-	}
-	.experience2-container .bubbles {
-		margin-top: 10px;
-	}
-	.experience2-container .title-arrow-container {
-		display: flex;
-		flex-direction: row;
-		height: 23px;
-	}
-	.experience2-container .newarrow {
-		width: 20px;
-		height: 20px;
-		margin-left: 240px;
-		margin-top: 3px;
 	}
 }

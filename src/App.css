@@ -30,7 +30,7 @@ li {
 	}
 }
 
-@media(min-width: 1500px) {
+@media (min-width: 1500px) {
 	.parent-container {
 		align-items: end;
 	}
