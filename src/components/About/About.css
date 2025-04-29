@@ -30,6 +30,7 @@
 
 @media (min-width: 1500px) {
 	.about-container {
+		font-size: medium;
 		padding-top: 80px;
 	}
     .education {

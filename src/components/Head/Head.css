@@ -1,5 +1,5 @@
 .head-container {
-	margin-top: 80px;
+	margin-top: 50px;
 	position: relative;
 	max-width: 500px;
 	margin-left: 10px;
@@ -121,6 +121,7 @@
 		position: fixed;
 		left: 0;
 		margin-left: 150px;
+		margin-top: 80px;
 	}
 	.head-container .fullstack {
 		margin-top: 20px;
