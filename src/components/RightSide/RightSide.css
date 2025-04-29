@@ -1,0 +1,12 @@
+.right-container {
+	position: relative;
+	max-width: 750px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+@media (min-width: 1500px) {
+    .right-container {
+		margin-right: 150px;
+	}
+}

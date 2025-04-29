@@ -1,161 +1,5 @@
-/* font imports and global styles */
-@font-face {
-	font-family: Aileron-Heavy;
-	src: url(/Aileron-Heavy.otf);
-}
-@font-face {
-	font-family: Aileron;
-	src: url(/Aileron-SemiBold.otf);
-}
-* {
-	font-family: "Aileron", sans-serif;
-	background-color: #111111;
-	color: white;
-	margin: 0;
-	padding: 0;
-}
-html {
-	scroll-behavior: smooth;
-}
-li {
-	margin-left: 15px;
-	font-size: small;
-	color: #a9a9a9;
-}
 
-/* iphone view */
-/* head */
-.head-container {
-	margin-top: 80px;
-	position: relative;
-	max-width: 500px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-.profile {
-	border-radius: 100px;
-}
-.head-container .name {
-	margin-top: 10px;
-	font-family: "Aileron-Heavy", sans-serif;
-	font-size: xx-large;
-}
-.head-container .fullstack {
-	margin-top: 10px;
-	font-family: "Aileron", sans-serif;
-	font-size: large;
-	color: grey;
-}
-.head-container .location {
-	margin-top: 10px;
-	font-family: "Aileron", sans-serif;
-	font-size: large;
-	color: grey;
-}
-.head-container p {
-	margin-top: 10px;
-	font-size: medium;
-	color: #a9a9a9;
-}
-.head-container .version {
-	display: none;
-}
-.scroll {
-	display: none;
-}
-/* icons */
-.lightdark {
-	width: 35px;
-	height: 35px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin-top: 10px;
-	margin-right: 10px;
-}
-.smalllightdark {
-	display: none;
-}
-.icons-container {
-	display: flex;
-	flex-direction: row;
-	gap: 10px;
-	margin-top: 20px;
-	margin-bottom: 80px;
-}
-.icons-container img {
-	width: 25px;
-	height: 25px;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.icons-container img:hover {
-	transform: scale(1.15);
-}
-.newgithub {
-	width: 25px;
-	height: 25px;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	background-color: white;
-	-webkit-mask: url(/icons/github.svg) no-repeat center;
-	mask: url(/icons/github.svg) no-repeat center;
-}
-.newlinkedin {
-	width: 25px;
-	height: 25px;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	background-color: white;
-	-webkit-mask: url(/icons/linkedin.svg) no-repeat center;
-	mask: url(/icons/linkedin.svg) no-repeat center;
-}
-.newemail {
-	width: 25px;
-	height: 25px;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	background-color: white;
-	-webkit-mask: url(/icons/email.svg) no-repeat center;
-	mask: url(/icons/email.svg) no-repeat center;
-}
-.newresume {
-	width: 25px;
-	height: 25px;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	background-color: white;
-	-webkit-mask: url(/icons/resume.svg) no-repeat center;
-	mask: url(/icons/resume.svg) no-repeat center;
-}
-.icons-container .newgithub:hover,
-.icons-container .newlinkedin:hover,
-.icons-container .newemail:hover,
-.icons-container .newresume:hover {
-	transform: scale(1.15);
-}
-/* right container */
-.right-container {
-	position: relative;
-	max-width: 500px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-/* about me */
-.about-container {
-	word-spacing: 0.1em;
-	line-height: 1.5em;
-	font-size: medium;
-}
-.about-container p {
-	margin-bottom: 20px;
-	color: #a9a9a9;
-}
-.about-container p:last-child {
-	margin-bottom: 0px;
-}
-.education {
-	display: flex;
-	flex-direction: column;
-}
-.white {
-	color: white;
-}
+
 /* skills */
 .skills-container {
 	padding-top: 100px;
@@ -403,14 +247,8 @@ li {
 	color: #a9a9a9;
 }
 @media (max-width: 500px) {
-	.head-container {
-		margin-left: 20px;
-		margin-right: 20px;
-	}
-	.about-container {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
+
+	
 	.skills-container {
 		margin-left: 10px;
 		margin-right: 10px;
@@ -448,17 +286,7 @@ li {
 }
 /* media to change demo pics height and width */
 @media (min-width: 500px) {
-	/* parent */
-	.parent-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	/* head */
-	.head-container {
-		padding-right: 100px;
-		max-width: 500px;
-	}
+	
 	.demo {
 		width: 150px;
 		height: 100px;
@@ -473,69 +301,9 @@ li {
 @media (min-width: 1500px) {
 	.skills-container {
 		padding-top: 0;
-	}
-	.parent-container {
-		align-items: end;
-	}
-	.head-container {
-		position: fixed;
-		left: 0;
-		margin-left: 150px;
-	}
-	.head-container .fullstack {
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-	.head-container .location {
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-	.head-container .version {
-		display: flex;
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		margin-bottom: 20px;
-		margin-left: 20px;
-	}
-	.scroll {
-		display: flex;
-		flex-direction: column;
-	}
-	.scroll a {
-		text-decoration: none;
-		display: flex;
-		flex-direction: column;
-		margin-top: 20px;
-		text-decoration: none;
-		outline: none;
-		transition: transform 0.3s ease, box-shadow 0.3s ease;
-	}
-	.scroll a:hover {
-		transform: scale(1.05);
-	}
-	.scroll .group {
-		display: flex;
-		flex-direction: row;
-	}
-	.scroll span {
-		margin-left: 20px;
-		margin-top: -20px;
-	}
-	.newscroll {
-		width: 20px;
-		height: 20px;
-		background-color: white;
-		-webkit-mask: url(/icons/arrowright.svg) no-repeat center;
-		mask: url(/icons/arrowright.svg) no-repeat center;
-	}
-	.right-container {
-		max-width: 750px;
-		margin-right: 150px;
-	}
-	.about-container {
-		padding-top: 80px;
-	}
+	}	
+	
+
 	.skills-container {
 		margin-top: 100px;
 	}

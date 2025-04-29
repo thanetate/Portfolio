@@ -1,3 +1,5 @@
+import "./About.css";
+
 function About() {
 	return (
 		<div id="About" className="about-container">

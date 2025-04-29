@@ -1,4 +1,5 @@
 import Icons from "../Icons/Icons";
+import "./Head.css";
 
 export default function Head() {
 	return (
