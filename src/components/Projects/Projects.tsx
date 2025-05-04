@@ -8,7 +8,7 @@ const projects = [
 		site: "https://mapo.bensivo.com/app/",
 		desc: (
 			<>
-				Contributed to a browser-based mind mapping tool by: Implementing{" "}
+				Contributed to a browser-based mind mapping tool by: Implemented{" "}
 				<span className="white">touch features</span> for a seamless mobile and
 				tablet experience. Developed a{" "}
 				<span className="white">folder management feature</span> to help users
