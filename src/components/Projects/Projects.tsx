@@ -8,13 +8,13 @@ const projects = [
 		site: "https://mapo.bensivo.com/app/",
 		desc: (
 			<>
-				Contributed to a browser-based mind mapping tool by: Implementing a{" "}
+				Contributed to a browser-based mind mapping tool by: Implementing{" "}
+				<span className="white">touch features</span> for a seamless mobile and
+				tablet experience. Developed a{" "}
 				<span className="white">folder management feature</span> to help users
-				organize content efficiently. Integrating{" "}
-				<span className="white">touch features</span> for a seamless mobile
-				experience. Developing a{" "}
+				organize files efficiently. Created a{" "}
 				<span className="white">comment feature</span> that enables users to add
-				text annotations directly onto the canvas, enhancing idea organization.
+				text annotations directly onto the canvas.
 			</>
 		),
 		bubbles: ["Angular", "Go", "PostgreSQL"],
