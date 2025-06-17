@@ -5,7 +5,7 @@ const projects = [
 		demo: "/mapodemo.png",
 		title: "Mapo",
 		github: "https://github.com/bensivo/mapo",
-		site: "https://mapo.bensivo.com/app/",
+		site: "https://mapo.ink/app/",
 		desc: (
 			<>
 				Contributed to a browser-based mind mapping tool by: Implemented{" "}
