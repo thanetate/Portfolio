@@ -97,10 +97,10 @@ function Projectpage() {
       skills: [
         { bubble: "Azure" },
         { bubble: "Databricks" },
+        { bubble: "Terraform" },
         { bubble: "Python" },
         { bubble: "PySpark" },
-        { bubble: "SparkSQL" },
-        { bubble: "Terraform" },
+        { bubble: "SQL" },
       ],
       team: "",
       github: "https://github.com/thanetate/data-platform",

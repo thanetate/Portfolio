@@ -23,7 +23,7 @@ type experiences = {
 const experiences = [
   {
     id: 4,
-    title: "Platform Engineer 1",
+    title: "Platform Engineer",
     company: "Mirion",
     companyUrl: "https://www.mirion.com",
     date: "2026 - Present",
@@ -65,9 +65,9 @@ const experiences = [
     bubbles: [
       { bubble: "Azure" },
       { bubble: "Azure Data Factory" },
-      { bubble: "SQL" },
-      { bubble: "Python" },
       { bubble: "Apache Airflow" },
+      { bubble: "Python" },
+      { bubble: "SQL" },
       { bubble: "Splunk" },
       { bubble: "Dynatrace" },
     ],
@@ -209,8 +209,8 @@ function Aboutpage() {
           <br></br>I have experience working within the wealth management
           industry as a data engineer supporting data pipelines that power
           $300B+ in AUM. During my previous internship I built an observability
-          tool used daily by engineers to troubleshoot and resolve issues
-          happening within the mission-critical pipelines and APIs.
+          tool used by engineers to troubleshoot and resolve issues happening
+          within the mission-critical pipelines and APIs.
           <br></br>
           Lately, I've been excited learning more about data engineering. This
           led me to build a small end-to-end{" "}
