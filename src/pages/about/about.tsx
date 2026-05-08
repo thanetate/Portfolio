@@ -206,12 +206,15 @@ function Aboutpage() {
             University of North Texas
           </a>{" "}
           with a degree in Computer Science.
-          <br></br>I have experience working within the wealth management
-          industry as a data engineer supporting data pipelines that power
-          $300B+ in AUM. During my previous internship I built an observability
-          tool used by engineers to troubleshoot and resolve issues happening
-          within the mission-critical pipelines and APIs.
-          <br></br>
+        </div>
+        <div className="content">
+          I have experience working within the wealth management industry as a
+          data engineer supporting data pipelines that power $300B+ in AUM.
+          During my previous internship I built an observability tool used by
+          engineers to troubleshoot and resolve issues happening within the
+          mission-critical pipelines and APIs.
+        </div>
+        <div className="content">
           Lately, I've been excited learning more about data engineering. This
           led me to build a small end-to-end{" "}
           <a className="about-inline-link" href="/#Data">
